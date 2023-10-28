@@ -9,7 +9,7 @@ function registroUsuario() {
         }
 
         if (usuario !== "" && intentos <= 5) {
-            alert("Bienvenido usuario " + usuario);
+            alert(`¡Bienvenido ${usuario}!`);
             identificar = false;
         } else {
             alert("No se reconoce el usuario " + usuario);
@@ -38,7 +38,7 @@ function main() {
             console.log("No nos quedan pantalones de talles 30-40");
         }
         else {
-            if(pantalonShort >= 60){
+            if(pantalonShort >= 70){
                 alert(`Sos re gordo chabón, como vas a tener talle ${pantalonShort}? hacete tratar loco, podes morir de una enfermedad vos te das una idea de lo peligroso que es eso? no te dice nada tu familia, tus amigos, no te preocupa tu salud viejo? con la mejor, pero no vuelvas a pasarte por acá, anda a una tienda de gordos o de esas que usan personas como vos, nv`);
                 alert("Mentira gordi, te amo no te enojes");
                 alert("Sólo me queda un pantalon en su talle");
